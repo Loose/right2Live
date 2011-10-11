@@ -1,0 +1,18 @@
+<!-- 
+Skin: dead, tan
+Eyes: black, blue, brown, devil, gray, green, hazel, mint, pink, purple, red, sky, white
+Hair: loose, any, wesker
+Chest: black, blue, gray, green, red, sky, white
+Legs: jeans, khaki
+Face: blackbeard, blackframe, eyepatch, sunglasses
+-->
+<characters>
+	<players>
+		<Loose name="Loose" skin="tan" eyes="brown" hair="loose" chest="m_red" legs="khaki" />
+		<Any name="Any" skin="tan" eyes="brown" hair="any" chest="f_sky" legs="jeans" />
+	</players>
+	<zombies>
+		<Basic name="Basic" skin="dead" eyes="red" hair="brain" chest="m_green" legs="khaki" />
+		<Fast name="Fast" skin="dead" eyes="red" hair="wesker" chest="m_black" legs="jeans" face="sunglasses" />
+	</zombies>
+</characters>

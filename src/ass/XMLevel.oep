@@ -1,0 +1,31 @@
+<project>
+	<name>cdj</name>
+	<settings>
+		<defaultWidth>320</defaultWidth>
+		<defaultHeight>240</defaultHeight>
+		<minWidth>320</minWidth>
+		<minHeight>240</minHeight>
+		<maxWidth>32000</maxWidth>
+		<maxHeight>24000</maxHeight>
+		<bgColor>0x85878F</bgColor>
+		<workingDirectory>./preview</workingDirectory>
+	</settings>
+	<values>
+		<string name="Title" default="Level 0" maxChars="32" />
+		<text name="Message" default="Intro" maxChars="128" />
+	</values>
+	<objects>
+		<object name="Player" image="player11x20.png" width="11" height="20" originX="6" originY="20" limit="1" />
+		<object name="Heal" image="heal9x9.png" width="9" height="9" originX="5" originY="9" />
+		<object name="Heart" image="heart11x12.png" width="11" height="12" originX="6" originY="12" />
+		<object name="Pack" image="pack15x12.png" width="15" height="12" originX="8" originY="12" />
+	</objects>
+	<tilesets>
+		<tileset name="Building" image="../backdrops/walls/building20x20.png" tileWidth="20" tileHeight="20" />
+	</tilesets>
+	<layers>
+		<grid name="solids" gridSize="20" exportAsObjects="true" color="0xAAFFFFFF" />
+		<tiles name="walls" gridSize="20" exportAsObjects="true" />
+		<objects name="objects" gridSize="10" drawGridSize="10" />
+	</layers>
+</project>
